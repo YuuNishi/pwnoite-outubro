@@ -15,7 +15,7 @@ foreign key(CursoId) references TB_CURSOS (Id)
 );
 
 
-INSERT INTO TB_CURSO
+INSERT INTO TB_CURSOS
 (Nome) 
 VALUES('ADS');
 
@@ -24,7 +24,7 @@ VALUES('Yumi',1);
 INSERT INTO TB_ALUNOS (Nome, CursoId)
 VALUES('Shibata',1);
 INSERT INTO TB_ALUNOS (Nome, CursoId)
-VALUES('Guilherme',1);(Nome, CursoId)
+VALUES('Guilherme',1);
 INSERT INTO TB_ALUNOS (Nome, CursoId)
 VALUES('Debora',1);
 VALUES('Miguel',1);(Nome, CursoId)
